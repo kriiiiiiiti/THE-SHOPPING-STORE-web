@@ -104,11 +104,7 @@ nav {
 
 /* Media Queries for responsiveness */
 
-@media screen and (max-width: 768px) {
-    .container {
-        flex-direction: column; /* Stack elements vertically on smaller screens */
-        align-items: center; /* Center align items on smaller screens */
-    }
+
     
 
     @media screen and (max-width: 768px) {
@@ -118,8 +114,8 @@ nav {
     }
 
     .navItem img,.searchInput, .walletButton {
-        width: 80%; /* Adjust width for smaller screens */
-        flex-direction: row;
+        width: 30%; /* Adjust width for smaller screens */
+        flex-direction: coloumn;
     }
 
     .searchInput {
